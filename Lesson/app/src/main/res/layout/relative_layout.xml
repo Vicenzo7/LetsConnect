@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F57C00">
+
+    <TextView
+        android:id="@+id/ben_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:text="Ben"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+    <TextView
+        android:id="@+id/kunal_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ben_text_view"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:text="Kunal "
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+    <TextView
+        android:id="@+id/kagure_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ben_text_view"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:text=" Kagure"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+    <TextView
+        android:id="@+id/lyla_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:text="Layla"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+    <TextView
+        android:id="@+id/natalie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lyla_text_view"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:text=" Natalie"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+    <TextView
+        android:id="@+id/me_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/natalie_text_view"
+        android:layout_toRightOf="@id/lyla_text_view"
+        android:background="#01579B"
+        android:text=" ME"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/jennie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:text="Jennie"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+    <TextView
+        android:id="@+id/omoju_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/jennie_text_view"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:text="Omoju"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+    <TextView
+        android:id="@+id/amy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/omoju_text_view"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:text="Amy"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+
+
+
+
+
+
+    </RelativeLayout>

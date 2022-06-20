@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/cake1"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:background="#0336FF"
+            android:textStyle="bold"
+            android:textColor="#FFDE03"
+            android:textSize="45sp"
+            android:text="You're Invited !!"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:background="#0336FF"
+            android:textStyle="bold"
+            android:textColor="#FFDE03"
+            android:textSize="40sp"
+            android:text="Birthday At the Beach"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

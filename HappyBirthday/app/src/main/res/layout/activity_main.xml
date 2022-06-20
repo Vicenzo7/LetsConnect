@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/happy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0266"
+            android:fontFamily="sans-serif-light"
+            android:text="Happy Birthday!!"
+            android:textColor="#FFDE03"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/happy"
+            android:background="#FF0266"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="ROHAN"
+            android:textColor="#FFDE03"
+            android:textSize="45sp"
+            />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_below="@+id/name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cake1" />
+
+    <TextView
+        android:id="@+id/invite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photo"
+        android:background="#0336FF"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="You're Invited !!"
+        android:textColor="#FFDE03"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/invite"
+        android:layout_alignParentBottom="true"
+        android:background="#0336FF"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Birthday At the Beach"
+        android:textColor="#FFDE03"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
